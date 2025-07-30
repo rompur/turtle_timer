@@ -27,6 +27,11 @@
   animation: fadeInDown 1s ease-out;
 }
 
+.turtle-left {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
 .subtitle {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1.2rem;

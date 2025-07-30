@@ -11,7 +11,7 @@ function App() {
   });
 
   useEffect(() => {
-    const startDate = new Date('2025-03-23T00:00:00');
+    const startDate = new Date('2025-03-23T17:00:00');
     
     const updateTimer = () => {
       const now = new Date();
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="title">🐢 Turtle Timer</h1>
+      <h1 className="title"><span style={{marginLeft: '20px'}} className="turtle-left">🐢</span> ❤️ <span style={{marginRight: '20px'}} className="turtle-right">🐢</span> </h1>
         <p className="subtitle">Time since March 23, 2025</p>
         
         <div className="timer-grid">
