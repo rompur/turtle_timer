@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1 className="title"><span style={{marginLeft: '20px'}} className="turtle-left">🐢</span> ❤️ <span style={{marginRight: '20px'}} className="turtle-right">🐢</span> </h1>
+      <h1 className="title"><span style={{marginLeft: '20px'}} className="turtle-left emoji">🐢</span> <span className="emoji">❤️</span> <span style={{marginRight: '20px'}} className="turtle-right emoji">🐢</span> </h1>
         <p className="subtitle">Time since March 23, 2025</p>
         
         <div className="timer-grid">
@@ -69,7 +69,7 @@ function App() {
         </div>
         
         <div className="footer">
-          <p>Made with ❤️ and React</p>
+          <p>Made with <span className="emoji">❤️</span> and React</p>
         </div>
       </div>
     </div>

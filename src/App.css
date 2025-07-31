@@ -1,3 +1,17 @@
+/* Global emoji font settings */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+/* Global emoji styling */
+.emoji {
+  font-family: "Noto Color Emoji", "Android Emoji", "Segoe UI Emoji", "Apple Color Emoji", "EmojiOne Color", "EmojiSymbols", "Symbola", "Arial Unicode MS", "FreeSerif", "sans-serif";
+  font-feature-settings: "emoji";
+  font-variant-emoji: emoji;
+  -webkit-font-feature-settings: "emoji";
+  -moz-font-feature-settings: "emoji";
+  line-height: 1;
+  vertical-align: middle;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -30,6 +44,18 @@
 .turtle-left {
   display: inline-block;
   transform: scaleX(-1);
+}
+
+.turtle-right {
+  display: inline-block;
+  font-family: "Noto Color Emoji", "Android Emoji", "Segoe UI Emoji", "Apple Color Emoji", "EmojiOne Color", "EmojiSymbols", "Symbola", "Arial Unicode MS", "FreeSerif", "sans-serif";
+  font-size: 1em;
+  line-height: 1;
+  vertical-align: middle;
+  font-feature-settings: "emoji";
+  font-variant-emoji: emoji;
+  -webkit-font-feature-settings: "emoji";
+  -moz-font-feature-settings: "emoji";
 }
 
 .subtitle {
